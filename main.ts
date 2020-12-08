@@ -3,7 +3,7 @@ while (true) {
     if (input.lightLevel()) {
         light.setAll(light.rgb(0, 0, 0))
     } else {
-        light.setAll(light.rgb(0, 0, 255))
+        light.setAll(light.rgb(255, 255, 255))
     }
     
 }
