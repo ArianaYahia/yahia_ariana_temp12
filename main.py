@@ -1,2 +1,2 @@
 while True:
-    print("Light Level:" +input.light_level())
+    print("Light Level:" + input.light_level())
