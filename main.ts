@@ -1,11 +1,11 @@
+let temp1 = 30
 while (true) {
-    console.log("Light Level:" + input.lightLevel())
-    if (input.lightLevel() < 6) {
-        light.setAll(light.rgb(0, 0, 255))
-    } else if (input.lightLevel() > 13) {
-        light.setAll(light.rgb(0, 0, 0))
+    if (temp1 > 70) {
+        light.setAll(light.rgb(255, 0, 0))
+    } else if (temp1 > 40) {
+        light.setAll(light.rgb(0, 255, 0))
     } else {
-        light.setAll(light.rgb(245, 149, 59))
+        light.setAll(light.rgb(0, 0, 255))
     }
     
 }
