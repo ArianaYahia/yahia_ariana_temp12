@@ -5,7 +5,7 @@ while (true) {
     } else if (input.lightLevel() > 13) {
         light.setAll(light.rgb(0, 0, 0))
     } else {
-        light.setAll(light.rgb(255, 0, 0))
+        light.setAll(light.rgb(245, 149, 59))
     }
     
 }
